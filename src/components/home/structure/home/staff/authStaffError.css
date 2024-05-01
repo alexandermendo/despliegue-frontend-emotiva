@@ -1,0 +1,60 @@
+/* Estilos para el componente AuthStaffError */
+.auth-error-container {
+  text-align: center;
+  margin: 40px;
+  padding-top: 10%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.error-icon {
+  font-size: 150px;
+  color: red;
+}
+
+h2 {
+  font-family: Proxima Nova Bold, sans-serif;
+  font-size: 50px;
+  color: #ff0000;
+}
+
+p {
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.btn-back-error {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.btn-back-error:hover {
+  background-color: gray;
+}
+
+@media (max-width: 768px) {
+  .auth-error-container {
+    padding: 5%; 
+  }
+
+  .error-icon {
+    font-size: 80px; 
+  }
+
+  h2 {
+    font-size: 30px; 
+  }
+
+  .btn-back-error {
+    margin-top: 10px; 
+  }
+}

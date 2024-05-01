@@ -1,0 +1,112 @@
+.slider-test {
+  position: relative;
+  margin-top: -1%;
+}
+
+.text-slider {
+  text-align: start;
+}
+
+.text-slider h3 {
+  color: white;
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text-slider p {
+  color: #f4e2aa;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.text-slider .text-sl {
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 18px;
+}
+
+.btn-sli {
+  background-color: #00aef8;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+}
+
+.btn-sli:hover {
+  background-color: #aa0436;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.img-sli {
+  filter: brightness(60%);
+  width: 600px;
+  height: 700px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text-slider h3 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .slider-test {
+    margin: auto;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (max-width: 768px) {
+  .text-slider {
+    position: absolute;
+    text-align: start;
+    top: 18em;
+  }
+
+  .text-slider h3 {
+    font-size: 19px;
+  }
+
+  .text-slider p {
+    font-size: 10px;
+  }
+
+  .text-slider .text-sl {
+    font-size: 10px;
+  }
+
+  .carousel-caption {
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    top: 5%;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .img-sli {
+    height: 30rem;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .text-slider h3 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .text-slider h3 {
+    font-size: 16px;
+  }
+}

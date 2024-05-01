@@ -1,0 +1,14 @@
+.container-sl {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.container-sl h2 {
+  color: rgba(117, 41, 149, 0.9);
+  font-family: Proxima Nova Bold, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

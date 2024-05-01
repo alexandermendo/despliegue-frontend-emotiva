@@ -1,0 +1,101 @@
+.slider-container {
+  background-color: #315c91;
+  padding: 2%;
+  padding-bottom: 4%;
+}
+
+.staff-cont h2 {
+  color: white;
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 1%;
+}
+
+.slider-card {
+  margin: 0 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 25px;
+  margin-right: 10px;
+}
+
+.card {
+  background-color: #315c91;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body-staff {
+  display: flex;
+  margin-top: 2%;
+}
+
+.card-name-staff {
+  font-size: 10px;
+  color: aliceblue;
+  font-family: Proxima Nova Alt, sans-serif;
+  text-transform: uppercase;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.card-lastname-staff {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f3aa21;
+  font-family: Proxima Nova Alt, sans-serif;
+  text-transform: uppercase;
+  margin-left: 1%;
+}
+
+.card-name-st {
+  font-size: 12px;
+  font-weight: bold;
+  color: aliceblue;
+  font-family: Proxima Nova Thin, sans-serif;
+  text-transform: uppercase;
+  margin-left: 2%;
+}
+
+@media (max-width: 1024px) {
+  .card-name-staff {
+    font-size: 7px;
+  }
+
+  .card-lastname-staff {
+    font-size: 20px;
+  }
+
+  .card-name-st {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-container {
+    background-color: #315c91;
+    padding: 6%;
+    padding-bottom: 4%;
+  }
+
+  .card-name-staff {
+    font-size: 10px;
+  }
+
+  .card-lastname-staff {
+    font-size: 35px;
+  }
+}

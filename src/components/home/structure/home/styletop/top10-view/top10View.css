@@ -1,0 +1,139 @@
+.top-10-container {
+  background-color: #BB025E;
+  height: 15%;
+  padding: 3%;
+}
+
+.top-10-container h1 {
+  font-family: Proxima Nova Alt, sans-serif;
+  color: #f09916;
+  font-size: 40px;
+  text-align: start;
+  font-weight: bold;
+}
+
+.top-10-container ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.top-10-container li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.top-10-container li img.img-top-10 {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.top-10-container li::before {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.top-10-container li::before {
+  color: #f09916;
+}
+
+.top-10-container li:hover {
+  background-color: rgba(117, 41, 149, 0.9);
+}
+.ranking-info {
+  display: flex;
+  align-items: center;
+}
+
+.ranking-number {
+  margin-right: 0.5em;
+  font-family: Proxima Nova Bold, sans-serif;
+  font-size: 5em;
+  color: #f09916;
+}
+
+.ranking-change {
+  margin-left: 10px;
+}
+
+.arrow-up {
+  margin-left: 1em;
+  font-size: 4em;
+  color: rgb(74, 249, 158); /* Cambia el color según tu preferencia */
+}
+
+.arrow-down {
+  margin-left: 1em;
+  font-size: 4em;
+  color: rgb(148, 9, 36); /* Cambia el color según tu preferencia */
+}
+
+.arrow-equal {
+  margin-left: 1em;
+  font-size: 4em;
+  color: rgb(0, 195, 255); /* Cambia el color según tu preferencia */
+}
+
+.custom-btn-top-10 {
+  background-color: #BB025E;
+  color: white;
+  font-family: 'Proxima Nova Thin', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .top-10 {
+    padding: 7%;
+  }
+
+  .header h1 {
+    font-size: 25px;
+  }
+
+  .top-10-list {
+    padding: 0;
+  }
+
+  .top-10-item {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .img-top-10 {
+    max-width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .text-top {
+    text-align: left;
+    margin-left: 1em;
+  }
+
+  .text-top h2 {
+    font-size: 20px;
+  }
+
+  .text-top p {
+    font-size: 12px;
+  }
+
+  .ranking-change {
+    margin-left: 0;
+  }
+
+  .ranking-change svg {
+    font-size: 2em;
+  }
+}

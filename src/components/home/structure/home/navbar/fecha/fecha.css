@@ -1,0 +1,23 @@
+.navdate {
+  background-color: #BB025E;
+}
+
+.navdate p {
+  font-family: Proxima Nova Alt, sans-serif;
+  text-align: center;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  .navdate {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navdate {
+    display: none;
+  }
+}

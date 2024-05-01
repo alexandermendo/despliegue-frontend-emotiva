@@ -1,0 +1,42 @@
+.titulo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.subtitulo {
+  margin-top: 30px;
+}
+
+.formulario {
+  margin-top: 20px;
+}
+
+.input-cancion,
+.input-artista {
+  width: 100%;
+}
+
+.boton-agregar {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.lista-canciones {
+  margin-top: 20px;
+}
+
+.cancion-item {
+  cursor: pointer;
+}
+
+.cancion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.cont-can {
+  margin-top: 5%;
+}
+
+.cont-can h3 {
+  font-family: Proxima Nova Regular, sans-serif;
+}

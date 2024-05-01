@@ -1,0 +1,48 @@
+.navbar-1 {
+  background-color: rgba(117, 41, 149, 0.9); /* Fondo del navbar */
+  color: #fff; /* Color de texto del navbar */
+  padding: 10px 0; /* Espaciado interior superior e inferior */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.nav-list {
+  list-style: none; /* Eliminar los puntos de la lista */
+  padding: 0; /* Eliminar el espaciado interno de la lista */
+  display: flex; /* Mostrar los elementos de la lista en línea */
+  justify-content: end; /* Centrar los elementos horizontalmente */
+}
+
+.text-user {
+  margin-right: 2%;
+}
+
+.text-user h1 {
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  top: 10%;
+}
+
+.text-user p {
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 10px;
+  margin-top: 1%;
+  text-transform: capitalize;
+}
+
+.nav-item {
+  margin-right: 20px; /* Espacio entre elementos de la lista */
+}
+
+/* Estilos para los enlaces del Navbar */
+.nav-item a {
+  text-decoration: none; /* Eliminar la subrayado de los enlaces */
+  color: #fff; /* Color del texto de los enlaces */
+  font-weight: bold; /* Texto en negrita */
+  transition: color 0.3s; /* Transición de color suave al pasar el ratón */
+}
+
+.nav-item a:hover {
+  color: #61dafb; /* Cambiar el color al pasar el ratón */
+}

@@ -1,0 +1,134 @@
+.emotiva-navbar {
+  background-color: rgba(117, 41, 149, 0.9);
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: 1;
+  letter-spacing: .8px;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: #00aef8;
+  font-weight: bold;
+}
+
+.img-logo-emotiva {
+  content: "";
+  width: 8em;
+  height: 26px;
+  display: inline-block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.btn-cre-usu {
+  background-color: #00aef8;
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.btn-cer-ses {
+  background-color: #BB025E;
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.btn-cre-usu:hover,
+.btn-cer-ses:hover {
+  background-color: #aa0436;
+}
+
+.navbar-toggler-icon {
+  color: aliceblue;
+}
+
+.menu-bar {
+  width: 35px;
+  height: 5px;
+  background-color: aliceblue;
+  margin: 6px 0;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .emotiva-navbar {
+    padding: 1% 0;
+  }
+
+  .navbar-search .btn-cre-usu,
+  .navbar-search .btn-cer-ses {
+    display: inline-block;
+    width: auto;
+  }
+
+  .navbar-search {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: inline-block;
+  }
+
+  .navbar-nav .nav-link {
+    margin-top: 1%;
+  }
+
+  .form-inline {
+    position: absolute;
+    left: 13em;
+  }
+
+  .home-auth {
+    display: none;
+  }
+
+  .btn-cre-usu {
+    position: absolute;
+    left: 6em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  /* .btn-fijo {
+    display: flex;
+    margin-left: 5em;
+  } */
+}
+
+@media only screen and (max-width: 393px) {
+  .form-inline {
+    position: absolute;
+    left: 11em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .form-inline {
+    position: absolute;
+    left: 9em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .form-inline {
+    position: absolute;
+    left: 10em;
+  }
+}

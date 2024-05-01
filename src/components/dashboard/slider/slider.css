@@ -1,0 +1,103 @@
+.st-tab-sli {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.st-tab-sli h2 {
+  font-family: Proxima Nova Bold, sans-serif;
+  font-weight: bold;
+  color: #833e9f;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.form-slider {
+  background-color: #ffffff;
+}
+
+.form-slider h3 {
+  font-family: Proxima Nova Bold, sans-serif;
+  font-weight: bold;
+  color: #833e9f;
+  text-align: center;
+}
+
+/* Estilos personalizados para el modal */
+.custom-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 40px;
+  max-width: 50%;
+  /* Ajusta el ancho según tus preferencias */
+  width: 100%;
+  max-height: 100vh;
+  overflow-y: auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos personalizados para la superposición (overlay) */
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  text-align: center;
+}
+
+.btn-cancel-sli {
+  background-color: rgba(149, 41, 70, 0.9);
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.btn-update-sli {
+  background-color: rgba(117, 41, 149, 0.9);
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .st-tab-sli {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+  }
+
+  .st-tab-sli h2 {
+    font-size: 1.2em; /* Disminuir el tamaño de la fuente */
+  }
+
+  table {
+    margin-top: 10px;
+  }
+
+  /* Estilos adicionales para los botones en dispositivos móviles */
+  .btn-cancel-sli,
+  .btn-update-sli {
+    margin-right: 5px; /* Reducir el margen derecho */
+    font-size: 12px; /* Reducir el tamaño de la fuente */
+  }
+}

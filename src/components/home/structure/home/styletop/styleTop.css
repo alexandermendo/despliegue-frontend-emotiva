@@ -1,0 +1,229 @@
+.styletop-container {
+  background-color: #315c91;
+  padding: 2%;
+}
+
+.st-cont-2 h2 {
+  color: white;
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+.estilo-card {
+  background-color: #5796c0;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.estilo-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.estilo-card h5.card-title {
+  color: aliceblue;
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.estilo-card p {
+  color: #f4e2aa;
+  font-family: Proxima Nova Thin, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* Estilos para el hover de las tarjetas */
+.estilo-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top-10 {
+  background-color: #BB025E;
+  margin-top: 4%;
+  height: 15%;
+  padding: 3%;
+}
+
+.logo-e {
+  max-width: 25px;
+  margin-right: 10px;
+}
+
+
+.top-10 h1 {
+  font-family: Proxima Nova Alt, sans-serif;
+  color: #f09916;
+  font-size: 40px;
+  text-align: start;
+  font-weight: bold;
+}
+
+.top-10 ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.top-10 li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.top-10 li img.img-top-10 {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.top-10 li::before {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.top-10 li::before {
+  color: #f09916;
+}
+
+.top-10 li:hover {
+  background-color: rgba(117, 41, 149, 0.9);
+}
+
+
+.img-top-10 {
+  width: 20%;
+}
+
+.btn-top-list {
+  background-color: #00aef8;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  left: 72%;
+}
+
+.btn-top-list:hover {
+  background-color: #aa0436;
+  font-family: Proxima Nova Thin, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  left: 72%;
+}
+
+.text-top {
+  margin-top: 2%;
+}
+
+.spot-cls {
+  background-color: #aa0436;
+}
+
+.spot-cls h1 {
+  background-color: #aa0436;
+  font-family: Proxima Nova Thin, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: center
+}
+
+.spot-cls p {
+  background-color: #aa0436;
+  font-family: Proxima Nova Thin, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: center
+}
+
+@media (max-width: 1024px) {
+  .btn-top-list,
+  .btn-top-list:hover {
+    position: relative;
+    left: 30%;
+  }
+
+  .estilo-card h5.card-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .styletop-container {
+    padding: 8%;
+  }
+
+  .info-lfsty {
+    padding-left: 0px;
+    padding-top: 5%;
+  }
+
+  .top-10 {
+    background-color: #BB025E;
+    margin-top: 15%;
+    height: 15%;
+  }
+
+  .top-10 h1 {
+    font-family: Proxima Nova Alt, sans-serif;
+    color: #f09916;
+    font-size: 28px;
+    text-align: start;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: bold;
+  }
+
+  .img-top-10 {
+    width: 20%;
+  }
+
+  .btn-top-list {
+    background-color: #00aef8;
+    font-family: Proxima Nova Thin, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    left: 0%;
+    width: 100%;
+  }
+
+  .btn-top-list:hover {
+    background-color: #aa0436;
+    font-family: Proxima Nova Thin, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    left: 0%;
+    width: 100%;
+  }
+
+  .text-top h1 {
+    font-family: Proxima Nova Alt, sans-serif;
+    font-size: 28px;
+  }
+
+  .estilo-card h5.card-title {
+    font-size: 25px;
+  }
+
+  .estilo-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}

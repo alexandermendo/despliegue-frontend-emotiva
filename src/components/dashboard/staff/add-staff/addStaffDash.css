@@ -1,0 +1,84 @@
+/* AddStaffDash.css */
+
+.container-st {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.container-st h2 {
+  color: rgba(117, 41, 149, 0.9);
+  font-family: Proxima Nova Bold, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container-st p {
+  font-family: Proxima Nova Regular, sans-serif;
+  color: black;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label-1 {
+  font-family: Proxima Nova Regular, sans-serif;
+  color: black;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+
+.btn-add-cel {
+  background-color: rgba(117, 41, 149, 0.9);
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+/* Estilos para el campo de la foto */
+#foto-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#foto {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container-st {
+    padding: 5%;
+  }
+
+  .container-st h2 {
+    font-size: 32px;
+  }
+
+  .col-md-6 {
+    width: 100%;
+    float: none;
+  }
+  
+  .btn-add-cel {
+    position: absolute;
+    margin-top: 20%;
+  }
+}

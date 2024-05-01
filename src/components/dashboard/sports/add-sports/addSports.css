@@ -1,0 +1,18 @@
+.error-message {
+  color: #d8000c;
+  background-color: #ffd2d2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: #4f8a10;
+  background-color: #dffaeb;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-label-1 {
+  font-family: Proxima Nova Regular, sans-serif;
+  color: black;
+}

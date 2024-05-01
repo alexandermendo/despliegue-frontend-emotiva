@@ -1,0 +1,75 @@
+.account-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #315c91;
+}
+
+
+.account-form {
+  position: absolute;
+  top: 20%;
+}
+
+.account-form h1 {
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.account-form label {
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .account-form {
+    top: 10%;
+    width: 90%;
+    left: 5%;
+  }
+
+  .account-form h1 {
+    font-size: 30px;
+  }
+
+  .account-form label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 412px) {
+  .account-container {
+    height: 105vh;
+  }
+}
+
+@media (max-width: 393px) {
+  .account-container {
+    height: 115vh;
+  }
+
+  .account-form h1 {
+    font-size: 29px;
+  }
+
+  .account-form label {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .account-container {
+    height: 123vh;
+  }
+
+  .account-form h1 {
+    font-size: 28px;
+  }
+}

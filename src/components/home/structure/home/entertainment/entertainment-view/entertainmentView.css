@@ -1,0 +1,96 @@
+.custom-card-container {
+  background-color: #315c91;
+  padding: 5%;
+}
+
+.relevante-title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+
+.relevante-title h2 {
+  text-align: start;
+  color: white;
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 1%;
+}
+
+.custom-logo {
+  max-width: 25px;
+  margin-right: 10px;
+}
+
+.custom-card-main {
+  background-color: #315c91;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.custom-card-img-4 {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+}
+
+.custom-card-body {
+  position: absolute;
+  left: 20%;
+}
+
+.custom-card-title-ent {
+  color: white;
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-card-text-ent {
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 18px;
+  color: #f3aa21;
+  text-transform: uppercase;
+}
+
+.custom-btn-ver-mas {
+  background-color: #315c91;
+  color: white;
+  font-family: 'Proxima Nova Thin', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .custom-card-title-ent {
+    font-size: 15px !important;
+  }
+
+  .custom-card-text-ent {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .custom-card-img-4 {
+    width: 100%;
+    /* Ajustar el ancho para ocupar el 100% del contenedor en dispositivos móviles */
+  }
+
+  .relevante-title h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .relevante-title h2 {
+    font-size: 22px;
+  }
+}

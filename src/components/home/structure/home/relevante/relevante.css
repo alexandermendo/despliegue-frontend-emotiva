@@ -1,0 +1,95 @@
+.relevante-container {
+  background-color: #315c91;
+  padding: 2%;
+}
+
+.relev-cont h2 {
+  color: white;
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 1%;
+}
+
+.card-pri {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+  height: 97%;
+}
+
+.card-pri:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  max-height: 200px;
+}
+
+.card-body-rel {
+  background-color: #315c91;
+}
+
+.card-title-rel {
+  font-size: 25px;
+  font-family: Proxima Nova Alt, sans-serif;
+  margin-left: 2%;
+  margin-top: 2%;
+  color: aliceblue;
+}
+
+.card-text-rel {
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  color: #f3aa21;
+  margin-left: 2%;
+  margin-top: 2%;
+  text-transform: uppercase;
+}
+
+.card a {
+  color: #00aef8;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.card a:hover {
+  color: #0091d1;
+}
+
+.btn-ver-mas {
+  background-color: #315c91;
+  color: white;
+  font-family: 'Proxima Nova Thin', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .relevante-container {
+    background-color: #315c91;
+    padding: 7%;
+  }
+}
+
+@media (max-width: 360px) {
+  .relev-cont h2 {
+    font-size: 38px;
+  }
+}

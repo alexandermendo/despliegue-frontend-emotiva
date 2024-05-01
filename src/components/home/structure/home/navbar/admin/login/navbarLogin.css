@@ -1,0 +1,34 @@
+.emotiva-container-navbar {
+  background-color: rgba(117, 41, 149, 0.9);
+  padding: 1% 5%;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.btn-cre-cue {
+  font-family: Proxima Nova Thin, sans-serif;
+  color: white !important;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.img-logo-login {
+  width: 10%;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .emotiva-container-navbar {
+    padding: 3% 3%;
+  }
+
+  .img-logo-login {
+    width: 20%;
+  }
+
+  .btn-cre-cue {
+    font-size: 12px;
+  }
+}

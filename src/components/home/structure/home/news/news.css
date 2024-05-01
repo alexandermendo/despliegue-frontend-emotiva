@@ -1,0 +1,96 @@
+.cont-news-s {
+  padding-top: 4em;
+  padding-left: 9.5em;
+}
+
+.cont-news-s p {
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.cont-news-s h1 {
+  font-family: Proxima Nova Bold, sans-serif;
+  font-weight: bold;
+}
+
+.cont-pub {
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.cont-img {
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.foto-news {
+  width: 1250px;
+  height: 700px;
+}
+
+.cont-texto {
+  margin-left: 10%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+}
+
+.cont-texto-p {
+  text-align: justify;
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cont-news-s {
+    padding-top: 4em;
+    padding-left: 6em;
+    padding-right: 4em;
+  }
+
+  .cont-news-s h1 {
+    font-family: Proxima Nova Bold, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .foto-news {
+    width: 52em;
+    height: 30em;
+  }
+
+  .cont-texto-p {
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cont-news-s {
+    padding-top: 4em;
+    padding-left: 2.5em;
+    padding-right: 2em;
+  }
+
+  .cont-news-s h1 {
+    font-size: 22px;
+  }
+
+  .foto-news {
+    width: 20em;
+    height: 20em;
+  }
+
+  .cont-texto {
+    font-family: Proxima Nova Regular, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .foto-news {
+    width: 18em;
+    height: 15em;
+  }
+}

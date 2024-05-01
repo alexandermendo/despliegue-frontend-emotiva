@@ -1,0 +1,114 @@
+.sidebar {
+  width: 14rem;
+  height: calc(170vh - 60px);
+  background-color: rgba(117, 41, 149, 0.9);
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #61dafb; 
+}
+
+.img-logo-emotiva-1 {
+  content: "";
+  width: 10em;
+  height: 26px;
+  display: inline-block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 25%;
+}
+
+.dash-item {
+  display: flex;
+}
+
+.logo-dash {
+  width: 10%;
+  height: 25px;
+  margin-right: 5%;
+}
+
+.text-side {
+  display: grid;
+}
+
+.title-text {
+  font-family: Proxima Nova Regular, sans-serif;
+  text-transform: uppercase;
+}
+
+.text-add-note {
+  font-family: Proxima Nova Thin, sans-serif;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    padding: 10px; /* Reducir el padding en dispositivos móviles */
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 15px; /* Reducir el margen inferior de los títulos */
+    font-size: 1.2em; /* Tamaño de fuente más pequeño para títulos */
+  }
+
+  .sidebar li {
+    margin-bottom: 5px; /* Reducir el margen inferior de los elementos de la lista */
+  }
+
+  .sidebar a {
+    font-size: 0.9em; /* Tamaño de fuente más pequeño para enlaces */
+  }
+
+  .img-logo-emotiva-1 {
+    width: 100%; /* Ancho completo para el logo en dispositivos móviles */
+    height: auto; /* Altura automática para el logo */
+    margin-bottom: 15px; /* Reducir el margen inferior del logo */
+  }
+
+  .dash-item {
+    flex-direction: column; /* Cambiar la dirección de flexión en dispositivos móviles */
+    align-items: center; /* Centrar elementos en dispositivos móviles */
+  }
+
+  .logo-dash {
+    width: 15%; /* Ancho reducido para el icono del dashboard en dispositivos móviles */
+    margin-bottom: 10px; /* Reducir el margen inferior del icono */
+  }
+
+  .text-side {
+    text-align: center; /* Alinear texto al centro en dispositivos móviles */
+  }
+  
+  .title-text {
+    font-size: 1em; /* Tamaño de fuente más pequeño para títulos en dispositivos móviles */
+  }
+
+  .text-add-note {
+    font-size: 0.8em; /* Tamaño de fuente más pequeño para texto adicional en dispositivos móviles */
+  }
+}

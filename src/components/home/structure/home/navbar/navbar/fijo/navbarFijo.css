@@ -1,0 +1,21 @@
+.emotiva-navbar {
+  background-color: rgba(117, 41, 149, 0.9);
+}
+
+@media (max-width: 768px) {
+  .btn-cer-ses{
+    margin-left: 12em;
+  }
+}
+
+@media (max-width: 688px) {
+  .btn-cer-ses {
+    margin-left: 11em;
+  }
+}
+
+@media (max-width: 360px) {
+  .btn-cer-ses{
+    margin-left: 10em;
+  }
+}

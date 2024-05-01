@@ -1,0 +1,25 @@
+.edit-form {
+  background-color: rgba(117, 41, 149, 0.9);
+}
+
+.edit-form h3 {
+  color: white;
+}
+
+.btn-cancel-life {
+  background-color: rgba(149, 41, 70, 0.9);
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.btn-update-life {
+  background-color:   rgba(174, 62, 222, 0.9);
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}

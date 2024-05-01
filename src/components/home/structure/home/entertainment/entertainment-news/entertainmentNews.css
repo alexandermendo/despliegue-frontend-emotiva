@@ -1,0 +1,94 @@
+.cont-ent {
+  padding-top: 4em;
+  padding-left: 9.5em;
+}
+
+.cont-ent p {
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.cont-ent h1 {
+  font-family: Proxima Nova Bold, sans-serif;
+  font-weight: bold;
+}
+
+.cont-pub {
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.cont-img {
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.cont-texto {
+  margin-left: 10%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+}
+
+.cont-texto p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .cont-ent h1 {
+    font-size: 40px;
+  }
+
+  .pub-dat {
+    padding-right: 1em;
+  }
+
+  .pub-dat p {
+    font-size: 15px;
+  }
+
+  .foto-ent {
+    width: 50em;
+    height: 30em;
+  }
+
+  .cont-texto p {
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cont-ent h1 {
+    font-size: 30px;
+  }
+
+  .foto-ent {
+    width: 20em;
+    height: 20em;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .cont-ent h1 {
+    font-size: 28px;
+  }
+
+  .foto-ent {
+    width: 19em;
+    height: 15em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .cont-ent h1 {
+    font-size: 25px;
+  }
+
+  .foto-ent {
+    width: 18em;
+    height: 15em;
+  }
+}

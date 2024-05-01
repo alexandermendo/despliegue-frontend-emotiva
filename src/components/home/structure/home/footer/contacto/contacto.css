@@ -1,0 +1,59 @@
+.container-contact {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(117, 41, 149, 0.9);;
+}
+
+.container-contact h2 {
+  font-family: Proxima Nova Bold, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.form-label {
+  font-family: Proxima Nova Regular, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#archivo {
+  margin-bottom: 20px;
+}
+
+.btn-sen {
+  background-color: #BB025E;
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 1024px) {
+  .container-contact {
+    padding: 10px;
+  }
+  
+  .form-label {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-contact {
+    padding: 5px;
+  }
+  
+  .form-label {
+    font-size: 10px;
+  }
+}

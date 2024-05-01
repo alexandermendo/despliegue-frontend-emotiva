@@ -1,0 +1,33 @@
+.account-container-navbar {
+  background-color: rgba(117, 41, 149, 0.9);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.btn-back {
+  font-family: Proxima Nova Thin, sans-serif;
+  color: white !important;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.img-logo-account {
+  width: 10%;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .account-container-navbar {
+    padding: 3% 3%;
+  }
+
+  .img-logo-account {
+    width: 20%;
+  }
+
+  .btn-back {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,15 @@
+.container-term h1{
+  font-family: Proxima Nova Bold, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  text-align: justify;
+}
+
+.container-term p{
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 14px;
+  color: white;
+  text-align: justify;
+  margin-top: 5%;
+}

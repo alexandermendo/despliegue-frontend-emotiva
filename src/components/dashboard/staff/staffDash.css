@@ -1,0 +1,112 @@
+.st-tab-cont {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.st-tab-cont h2 {
+  font-family: Proxima Nova Bold, sans-serif;
+  font-weight: bold;
+  color: #833e9f;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family: Proxima Nova Bold, sans-serif;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el mensaje de error */
+.text-err {
+  color: red;
+  font-weight: bold;
+}
+
+.edit,
+.trash {
+  color: white;
+  background-color: #bb025e;
+  padding: 4%;
+  margin-left: 2%;
+}
+
+.edit-form {
+  background-color: #ffffff;
+}
+
+.edit-form h3 {
+  font-family: Proxima Nova Bold, sans-serif;
+  font-weight: bold;
+  color: #833e9f;
+  text-align: center;
+}
+
+.edit-form img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-cancel-st {
+  background-color: rgba(149, 41, 70, 0.9);
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.btn-update-st {
+  background-color: rgba(117, 41, 149, 0.9);
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .st-tab-cont {
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .st-tab-cont h2 {
+    font-size: 1.5em;
+  }
+
+  table {
+    margin-top: 10px;
+  }
+
+  th,
+  td {
+    padding: 6px;
+  }
+
+  .edit-form {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .edit-form button {
+    margin-top: 8px;
+    padding: 8px 12px;
+  }
+}

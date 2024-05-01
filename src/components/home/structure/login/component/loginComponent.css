@@ -1,0 +1,56 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #315c91;
+}
+
+.login-form {
+  position: absolute;
+  top: 20%;
+}
+
+.login-form h1 {
+  font-family: Proxima Nova Alt, sans-serif;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-group {
+  margin-top: 5%;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sel-rol {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-login {
+  background-color: rgba(117, 41, 149, 0.9);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Proxima Nova Alt, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

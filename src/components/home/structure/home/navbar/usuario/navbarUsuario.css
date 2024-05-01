@@ -1,0 +1,108 @@
+.ligero-container-navbar {
+  background-color: transparent;
+  padding: 1% 5%;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.ligero-container-navbar.scrolled {
+  background-color: rgba(117, 41, 149, 0.9);
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: 1;
+  letter-spacing: .8px;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: #00aef8;
+  font-weight: bold;
+}
+
+.img-logo-emotiva {
+  content: "";
+  width: 8em;
+  height: 26px;
+  display: inline-block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.btn-cre-usu {
+  background-color: #00aef8;
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.btn-cer-ses {
+  background-color: #BB025E;
+  color: white;
+  font-family: Proxima Nova Thin, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.btn-cre-usu:hover,
+.btn-cer-ses:hover {
+  background-color: #aa0436;
+}
+
+.navbar-toggler-icon {
+  color: aliceblue;
+}
+
+.menu-bar {
+  width: 35px;
+  height: 5px;
+  background-color: aliceblue;
+  margin: 6px 0;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .ligero-container-navbar {
+    padding: 3% 0;
+  }
+
+  .navbar-search .btn-cre-usu,
+  .navbar-search .btn-cer-ses {
+    display: inline-block;
+    width: auto;
+    /* Restablezco el ancho automático para los botones */
+  }
+
+  .navbar-search {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: inline-block;
+  }
+
+  .btn-cre-usu,
+  .btn-cer-ses {
+    width: auto;
+    /* Restablezco el ancho automático para los botones */
+  }
+
+  .navbar-nav .nav-link {
+    margin-top: 1%;
+  }
+}
