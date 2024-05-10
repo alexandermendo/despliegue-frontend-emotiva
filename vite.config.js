@@ -3,10 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  optimizeDeps: {
-    include: ['vue', '@vueuse/core'],
-    exclude: ['vue-demi', '@vite/client', '@vite/env'],
-  }
+  base: '/', // Cambia '/my-react-project/' a tu ruta base deseada
+  plugins: [
+    react({
+      jsx: 'react-jsx',
+    }),
+  ],
 })
-
