@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-import { fetchTop10, url } from '../../../../../../../../../common/utils';
+import { fetchTop10, url } from '../../../../../../../../common/utils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp, faArrowDown, faEquals, faHouse } from '@fortawesome/free-solid-svg-icons';
 import './top10View.css';

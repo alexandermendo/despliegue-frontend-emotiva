@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Alert } from 'react-bootstrap';
 import { useAuthContext } from '../../../../../contexts/AuthContext';
-import { fetchUsuarios, loginRequest } from '../../../../../../../../common/utils';
+import { fetchUsuarios, loginRequest } from '../../../../../../../common/utils';
 import './loginComponent.css';
 
 export const LoginComponent = () => {

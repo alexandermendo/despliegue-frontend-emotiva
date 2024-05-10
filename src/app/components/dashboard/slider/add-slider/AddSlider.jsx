@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { url } from '../../../../../../../common/utils';
+import { url } from '../../../../../../common/utils';
 import './addSlider.css';
 import ReactQuill from 'react-quill';
 

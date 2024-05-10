@@ -1,6 +1,6 @@
 // AddRelevante.jsx
 import { useState } from 'react';
-import { Message, initialState, handleInputChange, handleFileChange, handleSubmit } from '../../../../../../../common/utils';
+import { Message, initialState, handleInputChange, handleFileChange, handleSubmit } from '../../../../../../common/utils';
 import ReactQuill from 'react-quill';
 import "react-quill/dist/quill.snow.css";
 import './addRelevante.css';

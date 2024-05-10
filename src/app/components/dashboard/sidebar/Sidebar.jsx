@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useAuthContext } from "../../../contexts/AuthContext";
-import { sidebarItems } from "../../../../../../common/utils";
+import { sidebarItems } from "../../../../../common/utils";
 import './sidebar.css';
 
 export const SidebarDash = () => {

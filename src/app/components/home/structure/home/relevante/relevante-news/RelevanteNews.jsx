@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { url, fetchUsuarios, fetchRelevanteDetails, formatDateTime } from "../../../../../../../../../common/utils";
+import { url, fetchUsuarios, fetchRelevanteDetails, formatDateTime } from "../../../../../../../../common/utils";
 import './relevanteNews.css';
 
 export const RelevanteNews = () => {

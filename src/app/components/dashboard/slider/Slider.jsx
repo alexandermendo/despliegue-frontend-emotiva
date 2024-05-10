@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { faEdit, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { url } from '../../../../../../common/utils';
+import { url } from '../../../../../common/utils';
 import './slider.css';
 
 export const Slider = () => {

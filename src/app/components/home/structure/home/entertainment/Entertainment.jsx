@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { chunk, fetchEntertainmentData, url } from "../../../../../../../../common/utils";
+import { chunk, fetchEntertainmentData, url } from "../../../../../../../common/utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import './entertainment.css';

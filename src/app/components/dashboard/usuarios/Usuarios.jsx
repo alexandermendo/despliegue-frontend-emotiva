@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Message, url } from '../../../../../../common/utils';
+import { Message, url } from '../../../../../common/utils';
 import './usuarios.css';
 
 export const Usuarios = () => {

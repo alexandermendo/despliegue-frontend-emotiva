@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { fetchStaffDetails, url } from "../../../../../../../../common/utils";
+import { fetchStaffDetails, url } from "../../../../../../../common/utils";
 import './detalleStaff.css';
 
 export const DetalleStaff = () => {

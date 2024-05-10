@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { fetchStyleDetails, fetchUsuarios, formatDateTime, url } from "../../../../../../../../../common/utils";
+import { fetchStyleDetails, fetchUsuarios, formatDateTime, url } from "../../../../../../../../common/utils";
 import './styleTopNews.css';
 
 export const StyleTopNews = () => {

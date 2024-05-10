@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { getSportsData, url } from "../../../../../../../../../common/utils";
+import { getSportsData, url } from "../../../../../../../../common/utils";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import './sportView.css';

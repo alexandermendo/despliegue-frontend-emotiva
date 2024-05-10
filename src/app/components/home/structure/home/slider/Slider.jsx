@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { fetchSliderData, url } from '../../../../../../../../common/utils';
+import { fetchSliderData, url } from '../../../../../../../common/utils';
 import './slider.css';
 
 export const Slider = () => {

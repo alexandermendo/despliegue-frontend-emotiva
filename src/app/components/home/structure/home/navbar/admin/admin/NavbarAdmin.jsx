@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuthContext } from "../../../../../../../contexts/AuthContext";
-import { fetchLogoData, url } from "../../../../../../../../../../common/utils";
+import { fetchLogoData, url } from "../../../../../../../../../common/utils";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChessBoard, faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 import "bootstrap/dist/css/bootstrap.min.css";

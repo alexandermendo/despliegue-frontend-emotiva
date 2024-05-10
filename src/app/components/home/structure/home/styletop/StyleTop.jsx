@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from "react-router-dom";
-import { fetchTop10, getLifestyleData, url } from '../../../../../../../../common/utils';
+import { fetchTop10, getLifestyleData, url } from '../../../../../../../common/utils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import './styleTop.css';

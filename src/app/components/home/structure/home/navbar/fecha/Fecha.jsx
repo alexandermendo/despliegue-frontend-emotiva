@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchWeatherData, formatDateTime, startDateTimeInterval } from '../../../../../../../../../common/utils';
+import { fetchWeatherData, formatDateTime, startDateTimeInterval } from '../../../../../../../../common/utils';
 import './fecha.css';
 
 export const Fecha = () => {

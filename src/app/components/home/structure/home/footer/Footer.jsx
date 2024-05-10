@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
-import { fetchLogoData, url } from '../../../../../../../../common/utils';
+import { fetchLogoData, url } from '../../../../../../../common/utils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import Modal from 'react-modal';

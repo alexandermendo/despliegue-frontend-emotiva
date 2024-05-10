@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from "react-router";
 import { NavbarAccount } from '../navbar/admin/account/NavbarAccount';
-import { url } from '../../../../../../../../common/utils';
+import { url } from '../../../../../../../common/utils';
 import './formAccount.css';
 
 export const FormAccount = () => {

@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
-import { fetchStaffData, settingsStaff, url } from "../../../../../../../../common/utils";
+import { fetchStaffData, settingsStaff, url } from "../../../../../../../common/utils";
 import './staff.css';
 
 export const Staff = () => {
