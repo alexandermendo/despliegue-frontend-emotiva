@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { url, fetchUsuarios, fetchRelevanteDetails } from "../../../../../../../../../common/utils";
+import { url, fetchUsuarios, fetchRelevanteDetails, formatDateTime } from "../../../../../../../../../common/utils";
 import './relevanteNews.css';
 
 export const RelevanteNews = () => {
   const { id } = useParams();
-  const [setUsuario] = useState(null);
+  const [usuario, setUsuario] = useState(null);
   const [relevanteDetails, setRelevanteDetails] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -25,32 +25,29 @@ export const RelevanteNews = () => {
 
     };
     fetchData();
-  }, []);
+  }, [id]);
 
   if (loading) return <p>Cargando datos...</p>;
-  // const formatDate = formatFechaHora(relevanteDetails.publishDate);
   return (
     <>
       <div className='cont-news-1'>
         <p>Lo + Relevante</p>
-        <h1>{relevanteDetails.title}</h1>
+        <h1>{relevanteDetails.data.title}</h1>
       </div>
 
       <div className='cont-pub'>
-        {relevanteDetails.publishDate && (
-          <div className="pub-dat">
-            <p>Publicado en: {new Date(relevanteDetails.publishDate).toLocaleString('es-CO')}</p>
-          </div>
+        {usuario && usuario.length > 0 && (
+          <div className="pub-dat"><p>Publicado por: {usuario[0].nombre}{' '} - {formatDateTime(relevanteDetails.data.publishDate)} </p></div>
         )}
       </div>
 
 
       <div className='cont-img'>
-        <img src={`${url}/${relevanteDetails.image}`} alt="Foto 1" className="relevante-foto" />
+        <img src={`${url}/${relevanteDetails.data.image}`} alt="Foto 1" className="relevante-foto" />
       </div>
 
       <div className='cont-texto'>
-        <div dangerouslySetInnerHTML={{ __html: relevanteDetails.description }} className="cont-texto-p" />
+        <div dangerouslySetInnerHTML={{ __html: relevanteDetails.data.description }} className="cont-texto-p" />
       </div>
     </>
   )

@@ -77,7 +77,7 @@ export const Footer = () => {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item-1"><a className="nav-link-1" href="#" onClick={() => openModal(<Contacto/>)}>Trabaja con Nosotros</a></li>
                   <li className="nav-item-1"><a className="nav-link-1" href="#" onClick={() => openModal(<Terminos />)}>Términos y Condiciones</a></li>
-                  <li className="nav-item-1"><a className="nav-link-1" href="#" onClick={() => openModal('Contenido para Buzón de Sugerencias')}>Buzón de Sugerencias</a></li>
+                  {/* <li className="nav-item-1"><a className="nav-link-1" href="#" onClick={() => openModal('Contenido para Buzón de Sugerencias')}>Buzón de Sugerencias</a></li> */}
                 </ul>
               </div>
             </div>

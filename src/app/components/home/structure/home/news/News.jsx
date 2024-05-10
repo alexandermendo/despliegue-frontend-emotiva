@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { fetchSliderDetails, fetchUsuarios, formatFechaHora, url } from "../../../../../../../../common/utils";
+import { fetchSliderDetails, fetchUsuarios, formatDateTime, url } from "../../../../../../../../common/utils";
 import './news.css';
 
 export const News = () => {
@@ -16,30 +16,29 @@ export const News = () => {
       await fetchSliderDetails(id, setSliderDetails, setLoading);
     };
     fetchData();
-  }, [])
+  }, [id])
 
   if (loading) return <p>Cargando datos...</p>;
-  const formatDate = formatFechaHora(sliderDetails.publishDate);
 
   return (
     <>
       <div className='cont-news-s'>
         <p>Noticias</p>
-        <h1>{sliderDetails.title}</h1>
+        <h1>{sliderDetails.data.title}</h1>
       </div>
 
       <div className='cont-pub'>
         {usuario && usuario.length > 0 && (
-          <div className="pub-dat"><p>Publicado por: {usuario[0].nombre}{' '} - {formatDate}</p></div>
+          <div className="pub-dat"><p>Publicado por: {usuario[0].nombre}{' '}- {formatDateTime(sliderDetails.data.publishDate)}</p></div>
         )}
       </div>
 
       <div className='cont-img'>
-        <img src={`${url}/${sliderDetails.image}`} alt="Foto 1" className="foto-news" />
+        <img src={`${url}/${sliderDetails.data.image}`} alt="Foto 1" className="foto-news" />
       </div>
 
       <div className='cont-texto'>
-        <div dangerouslySetInnerHTML={{ __html: sliderDetails.description }} className="cont-texto-p"/>
+        <div dangerouslySetInnerHTML={{ __html: sliderDetails.data.description }} className="cont-texto-p"/>
       </div>
     </>
   )

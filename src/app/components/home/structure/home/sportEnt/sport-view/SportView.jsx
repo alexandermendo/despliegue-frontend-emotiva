@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { formatFechaHora, getSportsData, url } from "../../../../../../../../../common/utils";
+import { getSportsData, url } from "../../../../../../../../../common/utils";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import './sportView.css';
@@ -38,7 +38,6 @@ export const SportView = () => {
                     </div>
                     <div className="col-md-8">
                       <div className="custom-card-body">
-                        <p className="custom-card-date">{formatFechaHora(noticia.publishDate)}</p>
                         <h5 className="custom-card-title">{noticia.title}</h5>
                         <p className="custom-card-text">{noticia.subtitle}</p>
                       </div>

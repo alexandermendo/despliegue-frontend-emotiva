@@ -37,8 +37,7 @@ export const RelevanteView = () => {
                       <img className="card-img" src={`${url}/${noticia.image}`} alt="Ligero" />
                     </div>
                     <div className="col-md-8">
-                      <div className="card-body custom-card-body">
-                        {/* <p className="card-text custom-card-date">{formatFechaHora(noticia.publishDate)}</p> */}
+                      <div className="card-body custom-card-body">                        <p>Publicado en: {new Date(noticia.publishDate).toLocaleDateString('es-CO')}</p>
                         <h5 className="card-title custom-card-title">{noticia.title}</h5>
                         <p className="card-text custom-card-text">{noticia.subtitle}</p>
                       </div>

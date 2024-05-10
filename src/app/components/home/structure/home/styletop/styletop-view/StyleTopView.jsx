@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { formatFechaHora, getLifestyleData, url } from "../../../../../../../../../common/utils";
+import { getLifestyleData, url } from "../../../../../../../../../common/utils";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import './styleTopView.css';
@@ -28,14 +28,13 @@ export const StyleTopView = () => {
 
         <div className="card-container">
           {lifeStyleData && lifeStyleData.length > 0 ? (
-            lifeStyleData.map(({ _id, image, publishDate, title, subtitle }, index) => (
+            lifeStyleData.map(({ _id, image, title, subtitle }, index) => (
               <Link to={`/lifestyle/${_id}`} key={index} className="custom-link">
                 <div className="card custom-card-main">
                   <div className="row no-gutters">
                     <div className="col-md-4"><img className="custom-card-img-2" src={`${url}/${image}`} alt="Ligero" /></div>
                     <div className="col-md-8">
                       <div className="custom-card-body">
-                        <p className="custom-card-date">{formatFechaHora(publishDate)}</p>
                         <h5 className="custom-card-title">{title}</h5>
                         <p className="custom-card-text">{subtitle}</p>
                       </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { fetchSportsDetails, fetchUsuarios, formatFechaHora, url } from "../../../../../../../../../common/utils";
+import { fetchSportsDetails, fetchUsuarios, formatDateTime, url } from "../../../../../../../../../common/utils";
 import './sportNews.css';
 
 export const SportNews = () => {
@@ -16,10 +16,9 @@ export const SportNews = () => {
       await fetchSportsDetails(id, setSportsDetails, setLoading);  // Llamada a la función fetchSportsDetails desde utils.js
     };
     fetchData();
-  }, [])
+  }, [id])
 
   if (loading) return <p>Cargando datos...</p>;
-  const formatDate = formatFechaHora(sportsDetails.data.publishDate);
 
   return (
     <>
@@ -30,7 +29,7 @@ export const SportNews = () => {
 
       <div className='cont-pub'>
         {usuario && usuario.length > 0 && (
-          <div className="pub-dat"><p>Publicado por: {usuario[0].nombre}{' '} - {formatDate}</p></div>
+          <div className="pub-dat"><p>Publicado por: {usuario[0].nombre}{' '}- {formatDateTime(sportsDetails.data.publishDate)}</p></div>
         )}
       </div>
 
