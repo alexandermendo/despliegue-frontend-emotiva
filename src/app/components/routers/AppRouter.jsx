@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { LOGIN, LOGOUT, PRIVATE } from "./../../../../../common/utils";
 import { Dashboard } from "../dashboard/Dashboard";
 import { Slider } from "../dashboard/slider/Slider";
 import { StaffDash } from "../dashboard/staff/StaffDash";
@@ -38,14 +37,14 @@ export const AppRouter = () => {
   return (
     <Router>
       <Routes>
-        <Route path={PRIVATE} element={<PrivateRoute />}>
+        <Route path= "/private" element={<PrivateRoute />}>
           <Route index element={<EmotivaHomeUserRouter />} />
-          <Route path={LOGOUT} element={<EmotivaLogoutRouter />} />
+          <Route path="/private/logout" element={<EmotivaLogoutRouter />} />
         </Route>
 
         <Route path="/" element={<PublicRoute />}>
           <Route index element={<EmotivaHomeRouter />} />
-          <Route path={LOGIN} element={<EmotivaLoginRouter />} />
+          <Route path="/login" element={<EmotivaLoginRouter />} />
           <Route path="/create-account" element={<EmotivaAccountRouter />} />
         </Route>
 
