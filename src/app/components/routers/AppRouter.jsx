@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { LOGIN, LOGOUT, PRIVATE } from "../../../../../common/utils";
+import { LOGIN, LOGOUT, PRIVATE } from "./../../../../../common/utils";
 import { Dashboard } from "../dashboard/Dashboard";
 import { Slider } from "../dashboard/slider/Slider";
 import { StaffDash } from "../dashboard/staff/StaffDash";
